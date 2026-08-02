@@ -16,6 +16,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.stefanreseach.racebuddy",
       "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
         "NSLocationWhenInUseUsageDescription": "RaceBuddy needs location access to track your lap times and provide GPS-based racing features.",
         "NSLocationAlwaysUsageDescription": "RaceBuddy needs background location access to continuously track your position during racing sessions.",
         "NSLocationAlwaysAndWhenInUseUsageDescription": "RaceBuddy needs background location access to track your racing data and provide telemetry during sessions.",
