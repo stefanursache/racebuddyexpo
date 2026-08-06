@@ -184,7 +184,7 @@ class OBDServiceClass {
                 // ELM327 variants
                 || n.includes('elm327') || n.includes('elm328') || n.includes('elm329')
                 // Generic catch-all: allow any device that might be OBD
-                || n.includes('car') || n.includes('auto') | n.includes('diag');
+                || n.includes('car') || n.includes('auto') || n.includes('diag');
 
             if (isOBD && !seen.has(device.id)) {
                 seen.add(device.id);

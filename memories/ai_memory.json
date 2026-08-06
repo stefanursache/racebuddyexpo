@@ -1,0 +1,8 @@
+{
+    "notes": {
+        "preferredPromptStyle": "json-only, minimal",
+        "defaultFloatPrecision": 2
+    },
+    "lastAnalyses": [],
+    "cache": {}
+}

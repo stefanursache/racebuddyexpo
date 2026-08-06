@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "prepare-payload": "node ./scripts/preparePayloadCli.js ./sample_data/sample_analysis.json",
+    "git-auto-push": "node ./scripts/git-push-agent.js"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
